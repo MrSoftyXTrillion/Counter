@@ -1,0 +1,72 @@
+/* !COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* !COMMON CSS ENDS HERE======================================================================================== */
+
+/* !COUNTDOWN SECTION STARTS HERE */
+#countDown {
+    margin-top: 70px;
+}
+#countDown ul {
+    text-align: center;
+}
+#countDown ul li {
+    display: inline-block;
+    margin: 0 55px;
+}
+#countDown ul li .icon {
+    background-color: #F1F3F4;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+#countDown ul li:hover .icon {
+    color: #FF6F61;
+}
+#countDown ul li .text h2 {
+    color: var(--1st-primary-color, #FF6F61);
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+#countDown ul li .text p {
+    color: var(--paragraph-color, #444);
+    text-align: center;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* !COUNTDOWN SECTION ENDS HERE */

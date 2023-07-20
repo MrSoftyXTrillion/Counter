@@ -1,0 +1,39 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    #banner .slick-dots {
+        display: none !important;
+    }
+    #banner .banner_slide {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (min-width: 768px) {
+    #banner .slick-dots {
+        position: absolute;
+        top: 70%;
+        left: 5%;
+    }
+}
+@media (min-width: 992px) {
+    #banner .slick-dots {
+        position: absolute;
+        top: 70%;
+        left: 3%;
+    }
+}
+@media (min-width: 1200px) {
+    #banner .slick-dots {
+        position: absolute;
+        top: 70%;
+        left: 4%;
+    }
+}
+@media (min-width: 1400px) {
+    #banner .slick-dots {
+        position: absolute;
+        top: 70%;
+        left: 4%;
+    }
+}
+
